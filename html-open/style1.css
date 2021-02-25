@@ -551,7 +551,7 @@ position: absolute;
 width: 470px;
 height: 148px;
 left: 1075px;
-top: 121.25px;
+top: 87.25px;
 font-family: 'Fira Sans';
 font-style: italic;
 font-weight: 700;
@@ -565,7 +565,7 @@ position: absolute;
 width: 447px;
 height: 38px;
 left: 1075px;
-top: 325.25px;
+top: 285.25px;
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
@@ -579,7 +579,7 @@ position: absolute;
 width: 207px;
 height: 40px;
 left: 1075px;
-top: 450.25px;
+top: 392.25px;
 background: #FFFFFF;
 border-color: #fff;
 border-radius: 8px;
@@ -640,7 +640,16 @@ box-sizing: border-box;
 border-radius: 15px;
 }
 
-.card_title1{
+.cardbg{    
+    position: absolute;
+    width: 1920px;
+    height: 393.38px;
+    left: 0px;
+    top: 3309.75px;    
+    background: #FDF8F6;
+}
+
+.card_title1, .card_title2, .card_title3, .card_title4{
 position: absolute;
 width: 197.25px;
 height: 14px;
@@ -654,7 +663,7 @@ line-height: 103.5%;
 color: #282828;
 
 }
-.span_card1{
+.span_card1, .span_card2, .span_card3, .span_card4{
 position: absolute;
 width: 109px;
 height: 10px;
@@ -672,7 +681,7 @@ color: #282828;
     margin-top:20px;
 }
 
-.card-text1{
+.card-text1, .card-text2, .card-text3, .card-text4{
 position: absolute;
 width: 329.38px;
 height: 85.38px;
@@ -685,4 +694,317 @@ font-size: 14px;
 line-height: 103.5%;
 color: #282828;
 
+}
+
+.card2{
+position: absolute;
+width: 370px;
+height: 474.25px;
+left: 775px;
+top: 3309.75px;
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.card3{
+    position: absolute;
+    width: 370px;
+    height: 474.25px;
+    left: 1177.5px;
+    top: 3309.75px;    
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.card4{
+position: absolute;
+width: 370px;
+height: 474.25px;
+left: 1578px;
+top: 3309.75px;
+border: 1px solid #DADADA;
+box-sizing: border-box;
+border-radius: 15px;
+background: linear-gradient(270deg, #FFFFFF 19.85%, rgba(255, 255, 255, 0) 102.03%);
+}
+
+.card-img-top4{
+position: absolute;
+width: 370px;
+height: 232.25px;
+background: linear-gradient(270deg, #d3d3d3 19.85%, rgba(255, 255, 255, 0) 102.03%);
+}
+
+.conheça_title{
+position: absolute;
+width: 454.82px;
+height: 58px;
+left: 375px;
+top: 3879.25px;
+font-family: 'Fira Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #282828;
+}
+.conheça_p{
+position: absolute;
+width: 570px;
+height: 81px;
+left: 375px;
+top: 3987.75px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #282828;
+}
+
+.conheça_img{
+position: absolute;
+width: 576px;
+height: 348.5px;
+left: 371px;
+top: 4139.25px;
+border-radius: 20px;
+}
+
+.baner_novidades{
+position: absolute;
+width: 536px;
+height: 796px;
+left: 1009px;
+top: 3859px;
+background: linear-gradient(180deg, rgba(40, 40, 40, 0) 14.1%, rgba(40, 40, 40, 0.5) 42.29%), url("banernovidade.png") no-repeat;
+background-size: cover;
+border-radius: 20px;
+}
+
+.novidades_title{
+position: absolute;
+width: 470px;
+height: 116px;
+top: 285.25px;
+left: 33px;
+font-family: 'Fira Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+
+}
+
+.novidades_p{
+position: absolute;
+width: 470px;
+height: 50px;
+left: 33px;
+top: 451.75px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
+
+#email{
+position: absolute;
+width: 270px;
+height: 40px;
+left: 33px;
+top: 563.75px;
+background: #FFFFFF;
+border-radius: 8px;
+border-color: #fff;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #4A4A4A;
+
+}
+#btnemail{
+position: absolute;
+width: 170px;
+height: 40px;
+left: 333px;
+top: 563.75px;
+background: #FF2D02;
+border-radius: 8px;
+border-color: #FF2D02;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.15em;
+color: #FFFFFF;
+}
+
+#btnemail:hover{
+    background-color:#a51f04 ;
+    border-color: #a51f04 ;
+}
+
+/* Footer */
+
+.footer{
+position: absolute;
+width: 1920px;
+height: 617.25px;
+left: 0px;
+top: 4587.75px;
+background-color: #fff;
+
+}
+.logo_footer{
+position: absolute;
+width: 68.72px;
+height: 86.04px;
+left: 585px;
+top: 24.25px;
+}
+.footer_p{
+position: absolute;
+width: 338px;
+height: 66px;
+left: 475px;
+top: 148.25px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #282828;
+}
+.open_link{
+    color:#282828 !important ;
+    font-weight: bold;
+
+}
+
+#btnfooter{
+position: absolute;
+width: 170px;
+height: 40px;
+left: 475px;
+top: 254px;
+background: #282828;
+border-color:282828 ;
+border-radius: 8px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.15em;
+color: #FFFFFF;
+}
+
+.icon3{
+position: absolute;
+width: 25px;
+height: 25px;
+left: 475px;
+top: 356.75px;
+
+}
+
+.icon1{
+position: absolute;
+width: 25px;
+height: 25px;
+left: 546px;
+top: 356.75px;
+}
+
+.icon2{
+position: absolute;
+width: 25px;
+height: 25px;
+left: 619.2px;
+top: 356.75px;
+}
+
+.post_title_footer{
+position: absolute;
+width: 136px;
+height: 17px;
+left: 875px;
+top: 80.25px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.15em;
+color: #282828;
+}
+
+.post_footer{
+position: absolute;
+width: 335px;
+height: 403px;
+left: 835px;
+top: 148.25px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #282828;
+list-style-type: none
+}
+
+.post1, .post2, .post3, .post4, .post5{
+    margin-bottom: 30px;
+}
+
+.footer_menu_title{
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 1275px;
+    top: 80.25px;    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;    
+    letter-spacing: 0.15em;    
+    color: #282828;
+}
+
+.footer_menu{
+position: absolute;
+width: 130px;
+height: 233.5px;
+left: 1240px;
+top: 148.25px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #282828  ;
+list-style-type: none
+}
+a{
+    color: #282828 !important;
+}
+
+.menu1, .menu2, .menu3, .menu4{
+    margin-bottom: 30px;    
 }
